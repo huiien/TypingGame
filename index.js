@@ -7,8 +7,8 @@
  	var spans;
  	var typed;
  	var seconds = 20;
-  var music = new Audio("media/music123.m4a");
-  var correct = new Audio("media/correct.m4a");
+  var music = new Audio("/media/music123.m4a");
+  var correct = new Audio("/media/correct.m4a");
 
 // Count down timer for 20 seconds
  	function countdown() {
