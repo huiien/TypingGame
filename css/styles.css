@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body {
+	background-color: #1aa6b7;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: #ecf0f1;
+}
+
+h1 + p {
+	margin-bottom: 5%;
+    color: #3498db;
+}
+
+.titleWrapper{
+  background-color: #ff414d;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.wrapper {
+	max-width: 600px;
+	margin: 20px auto;
+	width: 100%;
+	text-align: center;
+	background-color: #ffeadb;
+	height: 500px;
+}
+
+.scoreWrap {
+  float: right;
+  padding-right: 70px;
+}
+.timeWrap {
+  float: left;
+  padding-left: 70px;
+}
+
+.outerWrap:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.instruction{
+  padding: 2%;
+  color: black;
+}
+
+.bg {
+	background-color: #ff7e67;
+}
+
+button {
+  border: none;
+  background-color: #FF7373;
+  box-shadow: 0px 5px 0px 0px #CE4646;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.scoreWrap p, .scoreWrap span, .timeWrap p, .timeWrap span {
+    font-size: 30px;
+    color: #FF7373;
+}
+.wordsWrap {
+	margin-top: 50px;
+}
+
+
+.words{
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: black;
+}
