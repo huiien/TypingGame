@@ -18,13 +18,7 @@ h1 + p {
 	margin-bottom: 5%;
     color: #3498db;
 }
-
-.titleWrapper{
-  background-color: #ff414d;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-.wrapper {
+.card {
 	max-width: 600px;
 	margin: 20px auto;
 	width: 100%;
@@ -33,24 +27,45 @@ h1 + p {
 	height: 500px;
 }
 
-.scoreWrap {
-  float: right;
-  padding-right: 70px;
-}
-.timeWrap {
-  float: left;
-  padding-left: 70px;
-}
-
 .outerWrap:after {
 	content: "";
 	display: block;
 	clear: both;
 }
 
+.titleBg{
+  background-color: #ff414d;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
 .instruction{
   padding: 2%;
   color: black;
+}
+
+.scoreBg {
+  float: right;
+  padding-right: 70px;
+}
+.timeBg {
+  float: left;
+  padding-left: 70px;
+}
+
+.scoreBg p, .scoreBg span, .timeBg p, .timeBg span {
+    font-size: 30px;
+    color: #FF7373;
+}
+.wordsBg {
+	margin-top: 50px;
+}
+
+
+.words{
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: black;
 }
 
 .bg {
@@ -77,19 +92,4 @@ button:active {
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
   box-shadow: 0px 1px 0px 0px;
-}
-
-.scoreWrap p, .scoreWrap span, .timeWrap p, .timeWrap span {
-    font-size: 30px;
-    color: #FF7373;
-}
-.wordsWrap {
-	margin-top: 50px;
-}
-
-
-.words{
-    font-size: 60px;
-    letter-spacing: 1px;
-    color: black;
 }
